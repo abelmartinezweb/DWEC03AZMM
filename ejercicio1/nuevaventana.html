@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva ventana del ejercicio1</title>
+    <script>
+
+        let fecha = new Date();
+        let finDeAnio = new Date(2026, 11, 31);
+        let fechaDif = finDeAnio - fecha;
+
+
+        document.write(`Hoy es ${fecha.getDate()}/${fecha.getMonth()+1}/${fecha.getFullYear()} y faltan ${Math.ceil(fechaDif/86400000)} días para fin de año`);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
